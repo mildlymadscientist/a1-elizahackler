@@ -21,7 +21,7 @@ Changed footer background color
 Added new header
 
 ## Design Achievements
-- **Used the Roboto Font from Google Fonts**: 
+- **Used the Asimovian and TASA Explorer Font from Google Fonts**: 
 
 Imported Google fonts for body and headers
 
