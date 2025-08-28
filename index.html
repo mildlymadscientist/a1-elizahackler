@@ -1,28 +1,88 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>CS4241 Assignment 1</title>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-      [Self introduction]
-    </p>
-    <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
-    </p>
 
-    <h2>Experience</h2>
-    <p>
-      Working experience
-    </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
-    </ul>
-  </body>
+<head>
+  <title>CS4241 Assignment 1</title>
+  <meta charset="utf-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400..800&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Asimovian&family=TASA+Explorer:wght@400..800&display=swap');
+
+    body {
+      opacity: 0;
+      transition: opacity 3s ease-in;
+      font-family: TASA Explorer;
+      background-color: #DEDCD6;
+    }
+
+    h1 {
+      color: #D90749;
+      font-family: Asimovian;
+    }
+
+    h2 {
+      color: #CE00EB;
+      font-family: Asimovian;
+    }
+
+    h3 {
+      color: #34FADF;
+      font-family: Asimovian;
+    }
+
+    p {
+      color: #0066F0;
+    }
+
+    li {
+      color: #0066F0;
+    }
+
+    footer {
+      background-color: #D90749;
+      text-align: center;
+      padding: 5px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Information about Eliza Hackler</h1>
+  <p>
+    My name is Eliza Hackler. I am a senior at Worcester Polytechnic Institute, and I'm from <strong>Cape Cod</strong>.
+  </p>
+
+  <script>
+    //Found window.onload code online using Copilot AI search, makes the page fade in on load
+    window.onload = function () {
+      document.body.style.opacity = 1;
+    };
+  </script>
+
+  <p>
+    Interactive Media and Game Design major at WPI, Bachelor of Science.
+  </p>
+  <p>
+    I'm in game design, but also love visual art and the <strong>outdoors</strong>.
+  </p>
+
+  <h2>Experience: I have coded in HTML, C, C++, Java, Python, and some CSS. This class will be my first extensive foray
+    into JS. </h2>
+  <p>
+    Working experience: I spent a summer building webapps, mostly with low-code tools. I also have built a few websites
+    for fun and for school projects.
+  </p>
+  <footer>
+    <h3>Thank you!</h3>
+  </footer>
+  <ul>
+    <li>IBM/Rational</li>
+    <li>WPI</li>
+  </ul>
+</body>
+
 </html>
