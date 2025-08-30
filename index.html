@@ -9,13 +9,17 @@
 
     @import url('https://fonts.googleapis.com/css2?family=Asimovian&family=TASA+Explorer:wght@400..800&display=swap');
 
+    /* default styles and page settings */
     body {
+      /* makes page invisible */
       opacity: 0;
+      /* sets fade in */
       transition: opacity 3s ease-in;
       font-family: TASA Explorer;
       background-color: #DEDCD6;
     }
 
+    /* styles for headings */
     h1 {
       color: #D90749;
       font-family: Asimovian;
@@ -31,14 +35,17 @@
       font-family: Asimovian;
     }
 
+    /* styles for images */
     p {
       color: #0066F0;
     }
 
+    /* styles for lists */
     li {
       color: #0066F0;
     }
 
+    /* styles for footer */
     footer {
       background-color: #D90749;
       text-align: center;
@@ -52,12 +59,16 @@
 
 <body>
   <h1>Information about Eliza Hackler</h1>
+
+  <img
+    src="https://media.licdn.com/dms/image/v2/D4E03AQFHd181sXcGtg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1710459808207?e=1759363200&v=beta&t=2XvsEj64AAQ0TFUghL61n4hcGYw7ppzYwsIKOwlyyEY"
+    alt="Profile Image" />
+
   <p>
     My name is Eliza Hackler. I am a senior at Worcester Polytechnic Institute, and I'm from <strong>Cape Cod</strong>.
   </p>
 
   <script>
-    //Found window.onload code online using Copilot AI search, makes the page fade in on load
     window.onload = function () {
       document.body.style.opacity = 1;
     };
